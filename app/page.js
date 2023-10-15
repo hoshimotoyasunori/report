@@ -5,16 +5,23 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+      {/* header */}
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
+          ES Report
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className={styles.nav}>
+          <div>
+            <button className={styles.button}>定時連絡</button>
+          </div>
+          <div>
+            <button className={styles.button}>現着報告</button>
+          </div>
+          <div>
+            <button className={styles.button}>ご意見・ご要望</button>
+          </div>
+        </div>
+      {/* footer */}
+        {/* <div>
             By{' '}
             <Image
               src="/vercel.svg"
@@ -24,11 +31,12 @@ export default function Home() {
               height={24}
               priority
             />
-          </a>
-        </div>
+        </div> */}
       </div>
 
-      <div className={styles.center}>
+
+{/* mainろご */}
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -37,58 +45,24 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
-
+      </div> */}
+{/* main */}
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className={styles.card}>
           <h2>
             Docs <span>-&gt;</span>
           </h2>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkDiKDT9qqvjEIAMHxtmkI2BQMIsArx7Ph71LQVfIX1yJAuA/viewform?embedded=true" width="640" height="804" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
           <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className={styles.card}>
           <h2>
             Learn <span>-&gt;</span>
           </h2>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzwQar3vcxEA9u9eMweDUtzz5QG-rQe1MbK-mvK4YtWtcz2w/viewform?embedded=true" width="640" height="777" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
           <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </div>
       </div>
     </main>
   )
