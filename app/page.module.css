@@ -4,7 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   /* padding: 3rem; */
-  min-height: calc(100vh - 110px);
+  min-height: calc(100vh - 100px);
   position: fixed;
   top: 65px;
   left: 0;
@@ -130,7 +130,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: calc(100vh - 110px);
+    min-height: calc(100vh - 100px);
     position: fixed;
     top: 65px;
     left: 0;
@@ -145,7 +145,7 @@
   }
 
   .card1 {
-    height: calc(45vh - 110px);
+    height: calc(50vh - 125px);
     width: AUTO;
     display: flex;
     flex-direction: column;
@@ -157,7 +157,7 @@
   }
 
   .card2 {
-    height: calc(45vh - 110px);
+    height: calc(50vh - 125px);
     width: AUTO;
     display: flex;
     flex-direction: column;
