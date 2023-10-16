@@ -95,7 +95,7 @@ main {
   /* height: calc(100vh - 65px); */
   position: fixed;
   margin-top: 65px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   /* left: 0; */
   width: 100%;
   /* height: calc(100vh - 100px); */
@@ -112,7 +112,7 @@ main {
     /* height: calc(100vh - 65px); */
     position: fixed;
     margin-top: 65px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     /* left: 0; */
     width: 100%;
     /* height: calc(100vh - 100px); */
