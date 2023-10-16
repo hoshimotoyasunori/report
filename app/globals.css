@@ -92,9 +92,9 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* min-height: calc(100vh - 100px); */
-  /* position: fixed; */
-  margin-top: 65px;
+  min-height: calc(100vh - 115px);
+  position: fixed;
+  top: 65px;
   /* left: 0; */
   width: 100%;
   /* height: calc(100vh - 100px); */
@@ -107,9 +107,9 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* min-height: calc(100vh - 100px); */
-    /* position: fixed; */
-    margin-top: 65px;
+    min-height: calc(100vh - 115px);
+    position: fixed;
+    top: 65px;
     /* left: 0; */
     width: 100%;
     /* height: calc(100vh - 100px); */
