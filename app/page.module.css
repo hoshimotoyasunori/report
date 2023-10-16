@@ -4,9 +4,9 @@
   justify-content: flex-start;
   align-items: center;
   /* padding: 3rem; */
-  min-height: calc(90vh - 100px);
+  min-height: calc(100vh - 70px);
   position: fixed;
-  top: 70px;
+  top: 65px;
   left: 0;
   width: 100%;
   border: solid 5px #14314a;
@@ -52,7 +52,7 @@
 }
 
 .card1 {
-  height: calc(45vh - 70px);
+  height: calc(45vh - 80px);
   width: 50%;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@
 }
 
 .card2 {
-  height: calc(45vh - 70px);
+  height: calc(45vh - 80px);
   width: 50%;
   display: flex;
   align-items: center;
@@ -81,6 +81,18 @@
 
 .card2 {
   color: white;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: solid 5px #14314a;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  height: 40px;
 }
 
 
@@ -118,11 +130,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* padding: 1rem; */
-    min-height: calc(90vh - 100px);
-    /* margin-top: 70px; */
+    min-height: calc(100vh - 70px);
     position: fixed;
-    top: 70px;
+    top: 65px;
     left: 0;
     width: 100%;
   }
@@ -135,7 +145,7 @@
   }
 
   .card1 {
-    height: calc(45vh - 100px);
+    height: calc(45vh - 80px);
     width: AUTO;
     display: flex;
     flex-direction: column;
@@ -147,7 +157,7 @@
   }
 
   .card2 {
-    height: calc(45vh - 100px);
+    height: calc(45vh - 80px);
     width: AUTO;
     display: flex;
     flex-direction: column;
