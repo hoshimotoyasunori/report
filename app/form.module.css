@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: calc(100vh - 85px);
+    height: calc(100vh - 65px);
     overflow-y: scroll;
 }
 
