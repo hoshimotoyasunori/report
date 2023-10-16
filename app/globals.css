@@ -92,8 +92,8 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* min-height: calc(100vh - 105px); */
-  /* position: fixed; */
+  min-height: calc(100vh - 110px);
+  position: relative;
   margin-top: 65px;
   margin-bottom: 40px;
   /* left: 0; */
@@ -108,8 +108,8 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* min-height: calc(100vh - 105px); */
-    /* position: fixed; */
+    min-height: calc(100vh - 110px);
+    position: relative;
     margin-top: 65px;
     /* left: 0; */
     width: 100%;
