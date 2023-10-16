@@ -92,10 +92,10 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: calc(100vh - 65px);
+  /* height: calc(100vh - 65px); */
   position: fixed;
   margin-top: 65px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   /* left: 0; */
   width: 100%;
   /* height: calc(100vh - 100px); */
@@ -109,10 +109,10 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: calc(100vh - 65px);
+    /* height: calc(100vh - 65px); */
     position: fixed;
     margin-top: 65px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     /* left: 0; */
     width: 100%;
     /* height: calc(100vh - 100px); */
