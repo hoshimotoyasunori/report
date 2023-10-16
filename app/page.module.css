@@ -46,11 +46,12 @@
 
 .grid li {
   list-style: none;
+  width: 100%;
 }
 
 .card1 {
   height: calc(45vh - 110px);
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +63,7 @@
 
 .card2 {
   height: calc(45vh - 110px);
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   align-items: center;
   justify-content: center;
