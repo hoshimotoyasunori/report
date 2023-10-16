@@ -5,8 +5,8 @@ const header =()=>{
     return (
         <>
             <div className={styles.description}>
-                <li>
-                    <Link href='/'> ES Report</Link>
+                <li className={styles.title}>
+                    <Link href='/'> ES</Link>
                 </li>
                 <div className={styles.nav}>
                     <li>

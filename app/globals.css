@@ -99,7 +99,8 @@ main {
   /* left: 0; */
   width: 100%;
   /* height: calc(100vh - 100px); */
-  /* border: solid 5px #14314a; */
+  border-left: solid 5px #14314a;
+  border-right: solid 5px #14314a;
 }
 
 @media (max-width: 700px) {
@@ -115,6 +116,8 @@ main {
     /* left: 0; */
     width: 100%;
     /* height: calc(100vh - 100px); */
+    border-left: solid 5px #14314a;
+    border-right: solid 5px #14314a;
   }
 }
 

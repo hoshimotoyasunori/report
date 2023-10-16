@@ -193,3 +193,7 @@
     transform: rotate(0deg);
   }
 }
+
+.title {
+  font-size: 2rem;
+}
