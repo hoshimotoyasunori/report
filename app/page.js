@@ -50,18 +50,16 @@ export default function Home() {
       <div className={styles.grid}>
         <div className={styles.card}>
           <h2>
-            Docs <span>-&gt;</span>
+            現着報告 <span>-&gt;</span>
           </h2>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkDiKDT9qqvjEIAMHxtmkI2BQMIsArx7Ph71LQVfIX1yJAuA/viewform?embedded=true" width="640" height="804" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-          <p>Find in-depth information about Next.js features and API.</p>
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkDiKDT9qqvjEIAMHxtmkI2BQMIsArx7Ph71LQVfIX1yJAuA/viewform?embedded=true" width="100%" height="auto" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe> */}
         </div>
 
         <div className={styles.card}>
           <h2>
-            Learn <span>-&gt;</span>
+            提示連絡 <span>-&gt;</span>
           </h2>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzwQar3vcxEA9u9eMweDUtzz5QG-rQe1MbK-mvK4YtWtcz2w/viewform?embedded=true" width="640" height="777" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzwQar3vcxEA9u9eMweDUtzz5QG-rQe1MbK-mvK4YtWtcz2w/viewform?embedded=true" width="100%" height="auto" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe> */}
         </div>
       </div>
     </main>
