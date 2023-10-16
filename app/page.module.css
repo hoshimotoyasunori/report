@@ -4,7 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   /* padding: 3rem; */
-  min-height: calc(100vh - 70px);
+  min-height: calc(90vh - 100px);
   position: fixed;
   top: 70px;
   left: 0;
@@ -52,7 +52,7 @@
 }
 
 .card1 {
-  height: calc(50vh - 70px);
+  height: calc(45vh - 70px);
   width: 50%;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@
 }
 
 .card2 {
-  height: calc(50vh - 70px);
+  height: calc(45vh - 70px);
   width: 50%;
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@
   }
 
   .card1 {
-    height: calc(50vh - 100px);
+    height: calc(45vh - 100px);
     width: AUTO;
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@
   }
 
   .card2 {
-    height: calc(50vh - 90px);
+    height: calc(45vh - 100px);
     width: AUTO;
     display: flex;
     flex-direction: column;
