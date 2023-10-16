@@ -92,7 +92,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-height: calc(100vh - 115px);
+  min-height: calc(100vh - 105px);
   position: fixed;
   top: 65px;
   /* left: 0; */
@@ -107,7 +107,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: calc(100vh - 115px);
+    min-height: calc(100vh - 105px);
     position: fixed;
     top: 65px;
     /* left: 0; */
