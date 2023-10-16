@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    // <main className={styles.main}>
       <div className={styles.grid}>
         <div className={styles.card1}>
           <p>STEP 1</p>
@@ -24,6 +24,6 @@ export default function Home() {
         
         </div>
       </div>
-    </main>
+    // </main>
   )
 }
