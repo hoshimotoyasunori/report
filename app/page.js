@@ -4,23 +4,6 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-      {/* header */}
-        <p>
-          ES Report
-        </p>
-        <div className={styles.nav}>
-          <div>
-            <button className={`${styles.button} ${styles.font}`}>定時連絡</button>
-          </div>
-          <div>
-            <button className={`${styles.button} ${styles.font}`}>現着報告</button>
-          </div>
-          <div>
-            <button className={`${styles.button} ${styles.font}`}>ご意見・ご要望</button>
-          </div>
-        </div>
-      </div>
       <div className={styles.grid}>
         <div className={styles.card1}>
           <p>STEP 1</p>
@@ -40,10 +23,6 @@ export default function Home() {
           {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzwQar3vcxEA9u9eMweDUtzz5QG-rQe1MbK-mvK4YtWtcz2w/viewform?embedded=true" width="100%" height="auto" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe> */}
         </div>
       </div>
-      {/* footer */}
-        <div className={styles.footer}>
-            <p>©️2023 ES</p>
-        </div>
     </main>
   )
 }

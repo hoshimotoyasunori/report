@@ -33,6 +33,10 @@
   align-items: center;
 }
 
+.description li {
+  list-style-type: none;
+}
+
 .button {
   height: auto;
   padding: 7px;
