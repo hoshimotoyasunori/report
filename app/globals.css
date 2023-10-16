@@ -108,11 +108,14 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: calc(100vh - 100px);
-    position: fixed;
-    top: 65px;
-    left: 0;
+    min-height: 100vh;
+    /* position: fixed; */
+    padding-top: 65px;
+    /* left: 0; */
     width: 100%;
+    border-left: solid 5px #14314a;
+    border-right: solid 5px #14314a;
+    z-index: 0;
   }
 }
 
