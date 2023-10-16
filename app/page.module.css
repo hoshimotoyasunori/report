@@ -50,7 +50,7 @@
 }
 
 .card1 {
-  height: calc(45vh - 110px);
+  height: calc(45vh - 65px);
   /* width: 50%; */
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@
 }
 
 .card2 {
-  height: calc(45vh - 110px);
+  height: calc(45vh - 65px);
   /* width: 50%; */
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@
   }
 
   .card1 {
-    height: calc(50vh - 125px);
+    height: calc(50vh - 65px);
     width: AUTO;
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@
   }
 
   .card2 {
-    height: calc(50vh - 125px);
+    height: calc(50vh - 65px);
     width: AUTO;
     display: flex;
     flex-direction: column;
