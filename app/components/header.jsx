@@ -26,7 +26,7 @@ const header =()=>{
                 </li>
                 <li>
                     <Link href='/comment' className={`${styles.button} ${styles.font}`}>
-                        <span>ご意見・ご要望</span>
+                        <span>ご意見・<br/>ご要望</span>
                     </Link>
                 </li>
             </nav>
