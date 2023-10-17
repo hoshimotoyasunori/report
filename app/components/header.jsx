@@ -1,26 +1,20 @@
-import Link from "next/link";
-import styles from '../page.module.css';
+'use client'
+
+import { useRouter } from 'next/navigation'
+// import Link from "next/link";
+import styles from './header.module.css';
 
 const header =()=>{
+    const router = useRouter();
     return (
-        <>
-            <div className={styles.description}>
-                <li className={styles.title}>
-                    <Link href='/'> ES</Link>
-                </li>
-                <div className={styles.nav}>
-                    <li>
-                        <Link href='/report' className={`${styles.button} ${styles.font}`}>定時連絡</Link>
-                    </li>
-                    <li>
-                        <Link href='/arrival' className={`${styles.button} ${styles.font}`}>現着報告</Link>
-                    </li>
-                    <li>
-                        <Link href='/comment' className={`${styles.button} ${styles.font}`}>ご意見・ご要望</Link>
-                    </li>
-                </div>
-            </div>
-        </>
+        <header>
+            <nav className={styles.nav}>
+                <button className={`${styles.button} ${styles.font}`} onClick={()=>router.push("/")}>Top</button>
+                <button className={`${styles.button} ${styles.font}`} onClick={()=>router.push("/arrival")}>現着報告</button>
+                <button className={`${styles.button} ${styles.font}`} onClick={()=>router.push("/report")}>定時連絡</button>
+                <button className={`${styles.button} ${styles.font}`} onClick={()=>router.push("/comment")}>ご意見・ご要望</button>
+            </nav>
+        </header>
     );
 };
 export default header;

@@ -3,7 +3,13 @@ import styles from '../form.module.css'
 const Report =()=>{
     return (
             <session className={styles.container}>
-                <iframe  src="https://docs.google.com/forms/d/e/1FAIpQLSdkDiKDT9qqvjEIAMHxtmkI2BQMIsArx7Ph71LQVfIX1yJAuA/viewform?embedded=true" width="100%"  frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+                <iframe  src="https://docs.google.com/forms/d/e/1FAIpQLSdkDiKDT9qqvjEIAMHxtmkI2BQMIsArx7Ph71LQVfIX1yJAuA/viewform?embedded=true" 
+                    width="100%"  
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0">
+                    読み込んでいます…
+                </iframe>
             </session>
         )
 };
