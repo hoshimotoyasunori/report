@@ -54,7 +54,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .button:hover {
+    .nav li:hover {
         background: rgb(77, 77, 77);
         color: white;
     }
