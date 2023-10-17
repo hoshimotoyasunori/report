@@ -34,7 +34,7 @@
 }
 
 .nav li:nth-child(4) {
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(160, 160, 160);
     color: white;
 }
 
@@ -52,10 +52,10 @@
     .button:hover {
         background: rgb(77, 77, 77);
         color: white;
-        font: bold;
     }
 }
 
 .font {
-    font-size: .8em;
+    font-size: 0.8rem;
+    font: bold;
 }
