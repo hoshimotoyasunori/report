@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <head>
-        <meta property="apple-touch-icon" content={metadata.icon} />
+      <meta property="apple-touch-icon" content="https://esreport.vercel.app/es1.png" />
       </head>
       <body className={inter.className}>
         <Header/>
