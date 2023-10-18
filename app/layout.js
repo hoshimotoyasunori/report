@@ -1,4 +1,4 @@
-import Favicon from '../public/favicon.png'
+import Favicon from '../public/favicon.ico'
 import Header from './components/header';
 import './globals.css'
 import { Inter } from 'next/font/google'
