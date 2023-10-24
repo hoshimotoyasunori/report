@@ -17,15 +17,15 @@ export default function RootLayout({ children }) {
     <html lang="ja">
       {/* <head>
         <meta property="apple-touch-icon" content={metadata.icon} />
-         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT5KDQJBP8"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-YT5KDQJBP8');
-        </script>
       </head> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT5KDQJBP8"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-YT5KDQJBP8');
+      </script>
       <body className={inter.className}>
         <Header/>
         <main >
