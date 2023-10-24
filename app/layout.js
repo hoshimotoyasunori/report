@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       {/* <head>
         <meta property="apple-touch-icon" content={metadata.icon} />
       </head> */}
+     {/* 
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT5KDQJBP8"></script>
       <script>
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       
         gtag('config', 'G-YT5KDQJBP8');
       </script>
+       */}
       <body className={inter.className}>
         <Header/>
         <main >
