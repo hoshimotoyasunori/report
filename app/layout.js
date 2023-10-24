@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       {/* <head>
         <meta property="apple-touch-icon" content={metadata.icon} />
       </head> */}
+      <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT5KDQJBP8"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
